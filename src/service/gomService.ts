@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_URL = "http://<SEU_IP>:8000";
+const API_URL = "http://127.0.0.1:8000";
 
 export const enviarCSVParaGOM = async (file: File, k: number) => {
   const formData = new FormData();
